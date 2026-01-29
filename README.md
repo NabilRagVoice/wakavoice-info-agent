@@ -1,1 +1,1 @@
-# Trigger CI/CD
+# WakaVoice Info Agent MCP Server
