@@ -1,0 +1,13 @@
+# Requirements communes pour les serveurs MCP WakaVoice
+mcp[cli]>=1.0.0
+fastmcp>=0.1.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+httpx>=0.25.0
+
+# APIs tierces
+amadeus>=9.0.0
+
+# Azure SDKs (pour tool_cv)
+azure-communication-email>=1.0.0
+python-docx>=1.0.0
