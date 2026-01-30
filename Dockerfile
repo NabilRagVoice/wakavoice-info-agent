@@ -6,10 +6,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY tools/ ./tools/
-COPY server.py .
+COPY server_v2.py .
 COPY __init__.py .
 
 EXPOSE 8000
 ENV PYTHONUNBUFFERED=1
 
-CMD ["python", "server.py"]
+CMD ["python", "server_v2.py"]

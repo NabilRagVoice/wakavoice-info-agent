@@ -1,6 +1,5 @@
 # Requirements communes pour les serveurs MCP WakaVoice
-mcp[cli]>=1.0.0
-fastmcp>=0.1.0
+flask>=3.0.0
 python-dotenv>=1.0.0
 requests>=2.31.0
 httpx>=0.25.0
